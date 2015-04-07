@@ -8,3 +8,4 @@ Pensez a installer nodejs 0.10.x
 Loïc Calvy
 Sybille dLR
 Rami Lopes
+Dylanmn

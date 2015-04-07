@@ -1,5 +1,5 @@
 /**
- * Module dependencies.
+ * Module dependencies. c'est juste un test
  */
 
 // mongoose setup

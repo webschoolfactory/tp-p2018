@@ -7,7 +7,15 @@ Dylan Minssen
 =======
 Pensez à installer MongoDB
 Pensez a installer nodejs 0.10.x
+<<<<<<< HEAD
 
 
 Loïc Calvy
+>>>>>>> develop
+=======
+ 
+Loïc Calvy
+Sybille dLR
+Rami Lopes
+Dylanmn
 >>>>>>> develop

@@ -6,5 +6,7 @@ Pensez à installer MongoDB
 Pensez a installer nodejs 0.10.x
 
 
-Antoine Langlet
 Loïc Calvy
+Sybille dLR
+Rami Lopes
+Antoine Langlet

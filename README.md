@@ -10,4 +10,8 @@ Pensez a installer nodejs 0.10.x
 Loïc Calvy
 Sybille dLR
 Rami Lopes
+
+
+
+Bonjour je m'appelle Florian et je viens en paix !
 Pierre Lange

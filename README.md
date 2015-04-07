@@ -7,5 +7,8 @@ Pensez à installer MongoDB
 Pensez a installer nodejs 0.10.x
 
 
-Estelle Olivier
+ 
 Loïc Calvy
+Sybille dLR
+Rami Lopes
+Estelle Olivier

@@ -9,6 +9,10 @@
     </div>
   </form>
 
+<div id="testgif">
+	<img src="test.gif" alt="test" />
+</div>
+
 <% todos.forEach( function ( todo ){ %>
   <div class="item">
     <a class="update-link" href="/edit/<%= todo._id %>" title="Update this todo item"><%= todo.content %></a>

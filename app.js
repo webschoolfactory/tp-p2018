@@ -1,6 +1,9 @@
 /**
  * Module dependencies. c'est juste un test
  */
+process.on('uncaughtException', function(err) {
+  console.error('Caught exception: ', err.stack || err);
+});
 
 // mongoose setup
 require( './db' );

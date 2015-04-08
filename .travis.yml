@@ -1,8 +1,15 @@
 language: node_js
 sudo: false
 node_js:
-  - "0.10"
+- '0.10'
 install:
 - npm install
 script:
 - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: RgukMU6pl8bF6vCxPm3LhpKfSpkxogSPGhsGlt4e6p9cTND2MAxCgg1UhHGSSUXPyIFpcolBAvSRTHMWcf6wBRTn6eYeSLbw8e8LhgprHrj3MC8tJC6kenwSLU6wfSitPOeCPKGj+vv4oHx1xS7lMZEstK/GLo9CS4XiGSrGUkI=
+  app:
+    master: tp-p2018
+    develop: tp-p2018-staging

@@ -1,3 +1,5 @@
+DIRMOUNT=/media/sf_tp-p2018
+WHO=$(whoami)
 echo "############## INSTALL GIT ####################"
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo apt-get update
@@ -24,12 +26,12 @@ mkdir /data/
 mkdir /data/db
 chmod 777 /data/db
 mongod --version
-cd /media/sf_tp-p2018
+cd $DIRMOUNT
 npm install --no-bin-links
 echo '############## INSTALL SERVER APP ####################'
 sudo npm install pm2 -g
 sudo chown -R $(whoami) $HOME/.npm
-pm2 start /media/sf_tp-p2018/app.js -name webschool
+pm2 start "$DIRMOUNT/app.js" -name webschool
 pm2 startup ubuntu
-sudo env PATH=$PATH:/usr/local/bin pm2 startup ubuntu -u $(whoami)
+sudo env PATH=$PATH:/usr/local/bin pm2 startup ubuntu -u $WHO
 pm2 save

@@ -11,5 +11,5 @@ deploy:
   api_key:
     secure: PY/l5tGasPY/u0LLzupl7/971AdSWjnKtnyHdUOZ3uFkuHvFJ+KGENsoaoozxBUDtTcZID0lXRTo/9u7J845+oJ2pcOMNm93P/6xuaX2PHpdjKoRG2Malb0r4O8nBsanf5YZt9GOwPCpbxmuJ0EkVBqUluFbyDziSiK2i/JTpfY=
   app:
-    develop: tp-p2018-staging
+    staging: tp-p2018-staging
     master: tp-p2018
